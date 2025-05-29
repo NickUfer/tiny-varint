@@ -133,7 +133,7 @@ mod tests;
 
 // Re-export all public items
 pub use error::Error;
-pub use traits::VarInt;
+pub use traits::{VarInt, VarIntOps};
 pub use encoding::{encode, decode, varint_size};
 pub use zigzag::{ZigZag, encode_zigzag, decode_zigzag};
 pub use batch::{VarIntEncoder, VarIntDecoder, encode_batch, decode_batch};
